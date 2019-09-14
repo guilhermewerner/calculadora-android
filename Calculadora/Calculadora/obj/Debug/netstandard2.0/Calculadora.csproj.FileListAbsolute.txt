@@ -1,0 +1,12 @@
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.deps.json
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.dll
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.pdb
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.csprojAssemblyReference.cache
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.AssemblyInfoInputs.cache
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.AssemblyInfo.cs
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.dll
+C:\Users\GuiNerd\source\repos\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.pdb

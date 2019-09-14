@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Calculadora"
+             x:Class="Calculadora.MainPage">
+    <ContentPage.Content>
+        <Grid x:Name="controlGrid" RowSpacing="1" ColumnSpacing="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="60" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label x:Name="firstNumber" Text="" Grid.Row="0" HorizontalTextAlignment="End" VerticalTextAlignment="End" TextColor="Black" FontSize="40" Grid.ColumnSpan="4"/>
+            <Label x:Name="mathOperator" Text="" Grid.Row="1" HorizontalTextAlignment="End" VerticalTextAlignment="Center" TextColor="Black" FontSize="20" Grid.ColumnSpan="4"/>
+            <Label x:Name="secondNumber" Text="" Grid.Row="2" HorizontalTextAlignment="End" VerticalTextAlignment="End" TextColor="Black" FontSize="40" Grid.ColumnSpan="4"/>
+
+            <Button Text = "÷" Grid.Row="3" Grid.Column="0" Clicked="OnSelectOperator" />
+            <Button Text = "×" Grid.Row="3" Grid.Column="1" Clicked="OnSelectOperator" />
+            <Button Text = "DEL" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Clicked="OnClear" />
+
+            <Button Text = "7" Grid.Row="4" Grid.Column="0" Clicked="OnAddNumber" />
+            <Button Text = "8" Grid.Row="4" Grid.Column="1" Clicked="OnAddNumber" />
+            <Button Text = "9" Grid.Row="4" Grid.Column="2" Clicked="OnAddNumber" />
+            <Button Text = "-" Grid.Row="4" Grid.Column="3" Clicked="OnSelectOperator" />
+
+            <Button Text = "4" Grid.Row="5" Grid.Column="0" Clicked="OnAddNumber" />
+            <Button Text = "5" Grid.Row="5" Grid.Column="1" Clicked="OnAddNumber" />
+            <Button Text = "6" Grid.Row="5" Grid.Column="2" Clicked="OnAddNumber" />
+            <Button Text = "+" Grid.Row="5" Grid.Column="3" Clicked="OnSelectOperator" />
+
+            <Button Text = "1" Grid.Row="6" Grid.Column="0" Clicked="OnAddNumber" />
+            <Button Text = "2" Grid.Row="6" Grid.Column="1" Clicked="OnAddNumber" />
+            <Button Text = "3" Grid.Row="6" Grid.Column="2" Clicked="OnAddNumber" />
+            <Button Text = "=" Grid.Row="6" Grid.Column="3" Grid.RowSpan="2" Clicked="OnCalculate" />
+
+            <Button Text = "0" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Clicked="OnAddNumber" />
+            <Button Text = "," Grid.Row="7" Grid.Column="2" Clicked="OnAddNumber" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
